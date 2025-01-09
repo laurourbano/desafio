@@ -1,11 +1,11 @@
-let indice: number = 13;
-let soma: number = 0;
+let indiceNovo: number = 13;
+let total: number = 0;
 
-let k: number = 0;
+k = 0;
 
-while (k < indice) {
+while (k < indiceNovo) {
     k++;
-    soma += k;
+    total += k;
 }
 
-console.log(soma); // resultado: 91
+console.log(total); // resultado: 91
